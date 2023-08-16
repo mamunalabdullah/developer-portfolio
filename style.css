@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #474747;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.primary{
+    color: #FD6E0A;
+}
+.primary-btn{
+    background-color: #FD6E0A;
+    border:none;
+    padding: 18px 35px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 64px;
+}
+.primary-btn:hover{
+    background-color: #fff;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
+
+/* header and navbar and banner styles */
+header{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+nav{
+    display: flex;
+    justify-content: space-between ;
+    margin: 50px 200px;
+}
+.nav-title{
+    text-transform: capitalize;
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    margin-left: 30px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.left-banner{
+    width: 50%;
+}
+.right-banner{
+    width: 40%;
+}
+.left-banner h3{
+    color: #474747;
+    font-size: 45px;
+}
+.left-banner h1{
+    color: #181818;
+    font-size: 85px;
+}
+.left-banner p{
+    color: #757575;
+    font-size: 18px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.contact-btn{
+    margin-left: 20px;
+    background-color: #fff;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
+.contact-btn:hover{
+    background-color: #FD6E0A;
+    border:none;
+    color: #fff;
+}
