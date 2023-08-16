@@ -43,7 +43,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between ;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 .nav-title{
     text-transform: capitalize;
@@ -96,6 +96,9 @@ nav li{
     background-color: #FD6E0A;
     border:none;
     color: #fff;
+}
+.right-banner img{
+    margin-bottom: -6.5px;
 }
 
 /* about section styles */
